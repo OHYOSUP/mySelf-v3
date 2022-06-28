@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  background-color: #212F51;
+}
+#root #title {
+  width: 100vw;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #BC472C;
+  font-size: 3rem;
+}
+#root #subTitle {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#root #subTitle > p {
+  height: 6vh;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 6px;
+  color: #DBBA57;
+}
+#root #subTitle > p:nth-child(2) {
+  position: absolute;
+  -webkit-animation: textGlow 1s ease-in-out alternate;
+          animation: textGlow 1s ease-in-out alternate;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+#root #footer {
+  width: 100vw;
+  height: 40vh;
+}
+#root #footer > div:nth-child(1) {
+  width: 40vw;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#root #footer > div:nth-child(1) #pilgrimageBox {
+  width: 30vw;
+  height: 10vh;
+  border: 1px solid red;
+  display: flex;
+}
+#root #footer > div:nth-child(1) #pilgrimageBox #light {
+  width: 10vw;
+  height: 10vh;
+  border: 1px solid saddlebrown;
+}
+#root #footer > div:nth-child(1) #pilgrimageBox > div:nth-child(2) {
+  width: 20vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+#root #footer > div:nth-child(1) #hanbokBox {
+  width: 30vw;
+  height: 10vh;
+  border: 1px solid red;
+  display: flex;
+}
+#root #footer > div:nth-child(1) #hanbokBox #light_hanbok {
+  width: 10vw;
+  height: 10vh;
+  border: 1px solid saddlebrown;
+}
+#root #footer > div:nth-child(1) #hanbokBox > div:nth-child(2) {
+  width: 20vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+@-webkit-keyframes textGlow {
+  0% {
+    text-shadow: 0 0 10px #3d3b35, 0 0 20px #5e5a4f, 0 0 30px #55534d, 0 0 40px #1b1a17;
+  }
+  25% {
+    text-shadow: 0 0 10px #DBBA57, 0 0 20px #DBBA57, 0 0 30px #DBBA57, 0 0 40px #DBBA57;
+  }
+  50% {
+    text-shadow: 0 0 20px #DBBA57, 0 0 30px rgb(158, 134, 68), 0 0 20px #b9931f, 0 0 30px #917a37;
+  }
+  75% {
+    text-shadow: 0 0 20px #DBBA57, 0 0 30px #DBBA57, 0 0 40px #DBBA57, 0 0 30px #DBBA57;
+  }
+  100% {
+    text-shadow: 0 0 20px #DBBA57, 0 0 30px #DBBA57, 0 0 30px #DBBA57, 0 0 40px #DBBA57;
+  }
+}
+
+@keyframes textGlow {
+  0% {
+    text-shadow: 0 0 10px #3d3b35, 0 0 20px #5e5a4f, 0 0 30px #55534d, 0 0 40px #1b1a17;
+  }
+  25% {
+    text-shadow: 0 0 10px #DBBA57, 0 0 20px #DBBA57, 0 0 30px #DBBA57, 0 0 40px #DBBA57;
+  }
+  50% {
+    text-shadow: 0 0 20px #DBBA57, 0 0 30px rgb(158, 134, 68), 0 0 20px #b9931f, 0 0 30px #917a37;
+  }
+  75% {
+    text-shadow: 0 0 20px #DBBA57, 0 0 30px #DBBA57, 0 0 40px #DBBA57, 0 0 30px #DBBA57;
+  }
+  100% {
+    text-shadow: 0 0 20px #DBBA57, 0 0 30px #DBBA57, 0 0 30px #DBBA57, 0 0 40px #DBBA57;
+  }
+}/*# sourceMappingURL=landingPage.css.map */

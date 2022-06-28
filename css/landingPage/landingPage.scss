@@ -1,0 +1,106 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+@mixin flexCenter ($justify, $align){
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+#root{
+  width: 100vw;
+  height: 100vh;
+  background-color: #212F51;
+
+  #title{
+    width: 100vw;
+    height: 40vh;
+    @include flexCenter(center, center);
+    color: #BC472C;
+    font-size: 3rem;
+  }
+
+  #subTitle{
+    width: 100vw;
+    height: 20vh;
+    @include flexCenter(center, center);
+    flex-direction: column;
+    &>p{
+      height: 6vh;
+      font-size: 2rem;
+      font-weight: 600;
+      letter-spacing: 6px;
+      color: #DBBA57;
+    }
+    &>p:nth-child(2){
+      position: absolute;
+      // text-shadow: 0 0 10px #DBBA57, 0 0 20px #DBBA57, 0 0 30px #DBBA57, 0 0 40px #DBBA57;
+      animation: textGlow 1s ease-in-out alternate;
+      animation-fill-mode: forwards;
+      
+    }
+  }
+
+  #footer{
+    width: 100vw;
+    height: 40vh;
+    &>div:nth-child(1){
+      width: 40vw;
+      height: 40vh;
+      @include flexCenter(center,center );
+      flex-direction: column;
+      // flex-direction: column;
+      
+      #pilgrimageBox{
+        width: 30vw;
+        height: 10vh;
+        border: 1px solid red;
+        display: flex;
+        #light{
+          width: 10vw;
+          height: 10vh;
+          border: 1px solid saddlebrown;
+        }
+        &>div:nth-child(2){
+          width: 20vw;
+          height: 10vh;
+          @include flexCenter(center, flex-start);
+          flex-direction: column;
+        }
+      }
+      #hanbokBox{
+        width: 30vw;
+        height: 10vh;
+        border: 1px solid red;
+        display: flex;
+        #light_hanbok{
+          width: 10vw;
+          height: 10vh;
+          border: 1px solid saddlebrown;
+        }
+        &>div:nth-child(2){
+          width: 20vw;
+          height: 10vh;
+          @include flexCenter(center, flex-start);
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}
+
+@keyframes textGlow{
+  0%{
+    text-shadow: 0 0 10px #3d3b35, 0 0 20px #5e5a4f, 0 0 30px #55534d, 0 0 40px #1b1a17;
+  }
+  25%{
+    text-shadow: 0 0 10px #DBBA57, 0 0 20px #DBBA57, 0 0 30px #DBBA57, 0 0 40px #DBBA57;
+  }
+  50%{
+    text-shadow: 0 0 20px #DBBA57, 0 0 30px rgb(158, 134, 68), 0 0 20px #b9931f, 0 0 30px #917a37;
+  }
+  75%{
+    text-shadow: 0 0 20px #DBBA57, 0 0 30px #DBBA57, 0 0 40px #DBBA57, 0 0 30px #DBBA57;
+  }
+  100%{
+    text-shadow: 0 0 20px #DBBA57, 0 0 30px #DBBA57, 0 0 30px #DBBA57, 0 0 40px #DBBA57;
+  }
+}
