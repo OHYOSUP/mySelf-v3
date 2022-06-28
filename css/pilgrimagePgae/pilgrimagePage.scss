@@ -1,0 +1,111 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+@mixin flexCenter ($justify, $align){
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+#main{
+  width: 100vw;
+  background-color: #2D2D2D;
+
+  position: relative;
+  background-attachment: fixed;
+  &>div:nth-child(1){
+    height: 100vh;
+    @include flexCenter(center, center);
+    
+    &>h1{
+      letter-spacing: 4px;
+      transform: scale(6,11);
+      color: #BA3737; 
+    }
+  }
+  nav{
+    width: 100vw;
+    height: 15vh;
+    @include flexCenter(space-around, center);
+    background-color: #2D2D2D;
+
+    &>ul{
+      width: 100vw;
+      height: 15vh;
+      background-color: #373737;
+      @include flexCenter(space-around, center);
+      list-style-type: none;
+      
+      &>li{
+        width: 33vw;
+        height: 15vh;
+        @include flexCenter(center, center);
+        
+        color: #fff;
+        font-size: 3rem;
+        font-weight: 800;
+        letter-spacing: 5px;
+        transform: scale(2,3.5);
+      }
+      }
+    }
+
+
+}
+#background{
+  width: 100vw;
+  background-color: #2D2D2D;
+  #actorTextBox{
+    width: 20vw;
+    height: 50vh;
+    position: absolute;
+    top: 218vh;
+    left: 5vw;
+    @include flexCenter(space-around, center);
+    flex-direction: column;
+    &>div:nth-child(1){
+      width: 20vw;
+      height: 5vh;
+      @include flexCenter(center, center);
+      &>span{
+        color: #BA3737; 
+        transform: scale(4,6);
+        font-weight: 1000;
+      }
+    }
+    &>div:nth-child(2){
+      width: 20vw;
+      height: 30vh;
+      @include flexCenter(center, center);
+      flex-direction: column;
+      &>span{
+        height: 5vh;
+        font-size: 2rem;
+        color: #fff;
+        font-weight: 700;
+      }
+    }
+
+  }
+
+  #pilgrimage_pageTwo{
+    width: 100vw;
+    // height: 100vh;
+    @include flexCenter(flex-end, center);
+    &>div:nth-child(1){
+      width: 70vw;
+      height: 150vh;
+      
+      @include flexCenter(flex-end, center);
+      flex-direction: column;
+
+      &>div:nth-child(2){
+        width: 45vw;
+        color: #fff;
+        font-size: 0.8rem;
+        line-height: 30px;
+        text-align: justify;
+      }
+    }
+  }
+}
+  
