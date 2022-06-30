@@ -56,12 +56,15 @@
     position: fixed;
     left: -17vw;
     transform: rotate(-90deg);
+    mix-blend-mode: difference;
 
     &>li {
       width: 13vw;
       height: 5vh;
       @include flexCenter(space-around, center);
       font-weight: 800;
+
+
     }
   }
 }
