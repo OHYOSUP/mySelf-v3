@@ -9,7 +9,7 @@
 #main{
   width: 100vw;
   height: 100vh;
-  background-image: url(/functions/pilgrimage-navigation-function/Desktop\ -\ 24.svg);
+  background-image: url(/image/pilgrimagePage/actors.svg);
   background-size: cover;
   position: relative;
   background-attachment: fixed;
@@ -54,7 +54,7 @@
         @include flexCenter(center, flex-end);
         
         color: #fff;
-        font-size: 2rem;
+        font-size: 3rem;
         font-weight: 800;
         letter-spacing: 5px;
         transform: scale(2, 4);

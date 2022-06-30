@@ -5,6 +5,9 @@ const nav = document.querySelector('nav');
 console.log(nav);
 let positionY = 0;
 
+
+
+
 main.addEventListener('wheel', (e)=>{
   e.preventDefault()
   if(e.deltaY > 0){
@@ -12,7 +15,6 @@ main.addEventListener('wheel', (e)=>{
     nav.style.opacity = 1;
     nav.style.transition = '1s';
   }
-  console.log(e);
 })
 
 
