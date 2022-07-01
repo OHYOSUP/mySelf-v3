@@ -91,6 +91,7 @@
   position: absolute;
   top: 180vh;
   left: 17vh;
+  opacity: 0;
 }
 #hanbok_tradition #description_one > p {
   height: 4vh;
