@@ -202,7 +202,7 @@
           background-color: #fff;
           font-weight: 400;
           font-size: 12px;
-          border: 1px solid blue;
+          // border: 1px solid blue;
         }
   
         &>div:nth-child(2) {
@@ -285,7 +285,7 @@
 &>div:nth-child(1){
   width: 100vw;
   height: 60vh;
-  background-color: #ccc;
+  // background-color: #ccc;
 }
 }
 
@@ -341,20 +341,18 @@
   &>div:nth-child(2){
     width: 100vw;
     height: 70vh;
-    // background-color: #ccc;
     display: flex;
     @include flexCenter(flex-start, center);
 
     &>div:nth-child(1){
       width: 60vw;
       height: 60vh;
-      // background-color: #555;
       @include flexCenter(center, center);
 
       &>div:nth-child(1){
         width: 50vw;
         height: 50vh;
-        background-color: black;
+        background-color: #ccc;
       }
     }
     &>div:nth-child(2){

@@ -187,7 +187,6 @@
   background-color: #fff;
   font-weight: 400;
   font-size: 12px;
-  border: 1px solid blue;
 }
 #hanbok_legacy > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
   width: 20vw;
@@ -268,7 +267,6 @@
 #hanbok_legacy #hanbok_legacy_slide > div:nth-child(1) {
   width: 100vw;
   height: 60vh;
-  background-color: #ccc;
 }
 #hanbok_legacy #hanbok_legacy_lastpage {
   width: 100vw;
@@ -337,7 +335,7 @@
 #hanbok_legacy #hanbok_legacy_lastpage > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) {
   width: 50vw;
   height: 50vh;
-  background-color: black;
+  background-color: #ccc;
 }
 #hanbok_legacy #hanbok_legacy_lastpage > div:nth-child(2) > div:nth-child(2) {
   width: 40vw;

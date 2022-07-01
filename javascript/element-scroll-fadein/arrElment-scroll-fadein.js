@@ -1,12 +1,17 @@
+const actorTextBox = document.querySelectorAll('#actorTextBox>div>span');
 const imageBox = document.getElementById('imageBox');
-
-
+const imageDescription = document.getElementById('imageDescription');
 let posY = 0;
 let i = 0;
 
+// console.log(actorTextBox);
+const nameArr = Array.from(actorTextBox);
+
+
+
 function scrollDownEvent() {
   window.scrollBy({
-    top: 600,
+    top: 400,
     left: 0,
     behavior: 'smooth'
   });
@@ -16,7 +21,7 @@ function scrollDownEvent() {
 
 function scrollUpEvent() {
   window.scrollBy({
-    top: -600,
+    top: -400,
     left: 0,
     behavior: 'smooth'
   });
@@ -25,7 +30,9 @@ function scrollUpEvent() {
 }
 
 
-export function scrollElemFadein(pageName, elem, targetElem, yValue) {
+
+
+export const scrollArrElemFadein = function scrollElement(pageName, elem, yValue) {
   pageName.addEventListener('wheel', (e) => {
     e.preventDefault();
 
@@ -34,7 +41,6 @@ export function scrollElemFadein(pageName, elem, targetElem, yValue) {
       if (posY >= 150) {
         posY = 150;
       }
-      console.log(posY);
     }
     if (e.deltaY < 0) {
       scrollUpEvent();
@@ -43,15 +49,11 @@ export function scrollElemFadein(pageName, elem, targetElem, yValue) {
       }
     }
 
-    elem = targetElem
-
     if (posY >= yValue) {
-      elem.style.opacity = 1;
-      elem.style.transition = '0.5s';
+      nameArr.forEach(elem => {
+        elem.style.opacity = 1;
+        elem.style.transition = '0.5s';
+      });
     }
   });
 }
-
-
-
-

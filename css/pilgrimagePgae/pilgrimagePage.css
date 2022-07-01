@@ -7,6 +7,7 @@
 #main {
   width: 100vw;
   background-color: #2D2D2D;
+  overflow: hidden;
   position: relative;
   background-attachment: fixed;
 }
@@ -23,11 +24,13 @@
 }
 #main nav {
   width: 100vw;
-  height: 15vh;
+  height: 10vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #2D2D2D;
+  position: fixed;
+  top: 0;
 }
 #main nav > ul {
   width: 100vw;
@@ -39,13 +42,11 @@
   list-style-type: none;
 }
 #main nav > ul > li {
-  width: 33vw;
-  height: 15vh;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 800;
   letter-spacing: 5px;
   transform: scale(2, 3.5);
@@ -55,7 +56,7 @@
   opacity: 1;
 }
 
-span.fade {
+.fade {
   opacity: 1;
   transition: 0.7s ease;
   transform: translateX(50px);
@@ -137,16 +138,15 @@ span.fade {
   opacity: 0;
 }
 #background #indiText {
-  width: 100vw;
-  height: 35vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#background #indiText > span {
-  transform: scale(12.5, 25);
-  color: #fff;
+  font-size: 12rem;
+  color: #2D2D2D;
   font-weight: 1000;
+}
+#background .indiTextFade {
+  opacity: 1;
+  transition: 0.7s ease;
+  transform: translateX(50px);
+  color: #f3f3f3;
 }
 #background #newsText {
   width: 100vw;
@@ -192,14 +192,14 @@ span.fade {
 #background > div:nth-child(7) {
   position: absolute;
   z-index: 0;
-  top: 350vh;
+  top: 340vh;
   left: 10vw;
 }
 #background > div:nth-child(8) {
   position: absolute;
   z-index: 0;
   left: 56vw;
-  top: 432vh;
+  top: 422vh;
   color: #BA3737;
   transform: scale(10, 13);
   font-weight: 800;

@@ -1,5 +1,4 @@
-const imageBox = document.getElementById('imageBox');
-
+import { indiTextFade } from "../pilgrimage-indiText-fadein/pilgrimage_indiText-fadein.js";
 
 let posY = 0;
 let i = 0;
@@ -25,7 +24,8 @@ function scrollUpEvent() {
 }
 
 
-export function scrollElemFadein(pageName, elem, targetElem, yValue) {
+
+export function scrollFunctionFadein(pageName, yValue) {
   pageName.addEventListener('wheel', (e) => {
     e.preventDefault();
 
@@ -43,15 +43,5 @@ export function scrollElemFadein(pageName, elem, targetElem, yValue) {
       }
     }
 
-    elem = targetElem
-
-    if (posY >= yValue) {
-      elem.style.opacity = 1;
-      elem.style.transition = '0.5s';
-    }
   });
 }
-
-
-
-

@@ -18,11 +18,11 @@
 
 
 
-
 #main {
   width: 100vw;
   background-color: #2D2D2D;
 
+  overflow: hidden;
   position: relative;
   background-attachment: fixed;
 
@@ -37,12 +37,14 @@
     }
   }
 
+
   nav {
     width: 100vw;
-    height: 15vh;
+    height: 10vh;
     @include flexCenter(space-around, center);
     background-color: #2D2D2D;
-
+    position: fixed;
+    top: 0;
     &>ul {
       width: 100vw;
       height: 15vh;
@@ -51,12 +53,12 @@
       list-style-type: none;
 
       &>li {
-        width: 33vw;
-        height: 15vh;
+        // width: 33vw;
+        // height: 15vh;
         @include flexCenter(center, center);
 
         color: #fff;
-        font-size: 3rem;
+        font-size: 2rem;
         font-weight: 800;
         letter-spacing: 5px;
         transform: scale(2, 3.5);
@@ -70,7 +72,7 @@
   opacity: 1;
 }
 
-span.fade{
+.fade{
   opacity: 1;
   transition: 0.7s ease;
   transform: translateX(50px);
@@ -160,16 +162,23 @@ span.fade{
   }
 
   #indiText {
-    width: 100vw;
-    height: 35vh;
-    @include flexCenter(center, center);
-
-    &>span {
-      transform: scale(12.5, 25);
-      color: #fff;
+      // width: 90vw;
+      font-size: 12rem;
+      color: #2D2D2D;
       font-weight: 1000;
-    }
+      // transform: scale(12,25);
+      // opacity: 0;
   }
+
+  .indiTextFade{
+    opacity: 1;
+    transition: 0.7s ease;
+    transform: translateX(50px);
+    color: #f3f3f3;
+
+  }
+  
+
 
   #newsText {
     width: 100vw;
@@ -215,7 +224,7 @@ span.fade{
   &>div:nth-child(7) {
     position: absolute;
     z-index: 0;
-    top: 350vh;
+    top: 340vh;
     left: 10vw;
   }
 
@@ -224,7 +233,7 @@ span.fade{
     position: absolute;
     z-index: 0;
     left: 56vw;
-    top: 432vh;
+    top: 422vh;
 
     color: #BA3737;
     transform: scale(10, 13);
@@ -255,11 +264,5 @@ span.fade{
       }
     }
   }
-
-
-
-
-
-
-
 }
+
