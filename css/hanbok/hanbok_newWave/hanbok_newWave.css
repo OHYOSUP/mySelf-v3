@@ -1,24 +1,16 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .colorName {
   width: 5vw;
   height: 15vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-transform: scale(5, 5);
-          transform: scale(5, 5);
+  justify-content: flex-start;
+  align-items: center;
+  transform: scale(5, 5);
   font-weight: 1000;
   mix-blend-mode: overlay;
 }
@@ -26,15 +18,9 @@
 .colorDescription {
   width: 36vw;
   height: 2vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: flex-end;
+  align-items: center;
   font-weight: 600;
   mix-blend-mode: overlay;
 }
@@ -42,83 +28,49 @@
 #hanbok_newWave_mainPage {
   width: 100vw;
   background-color: #565656;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 #newWave_textbox {
   width: 20vw;
   height: 50vh;
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   color: #fff;
 }
-
 #newWave_textbox > div {
   width: 20vw;
   height: 10vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-size: 3rem;
   font-weight: 600;
 }
-
 #newWave_textbox > div > p {
   width: 20vw;
   height: 10vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 #newWave_textbox > div:nth-child(1) > p {
   letter-spacing: 46px;
 }
-
 #newWave_textbox > div:nth-child(2) > p {
   letter-spacing: 34px;
 }
-
 #newWave_textbox > div:nth-child(3) > p {
   letter-spacing: 34px;
 }
-
 #newWave_textbox > div:nth-child(4) > p {
   letter-spacing: 34px;
 }
-
 #newWave_textbox > div:nth-child(5) > p {
   letter-spacing: 38px;
 }
@@ -126,89 +78,53 @@
 #colorInNewwave {
   width: 100vw;
   height: 40vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-transform: scale(2.6, 8);
-          transform: scale(2.6, 8);
+  justify-content: center;
+  align-items: center;
+  transform: scale(2.6, 8);
   letter-spacing: 3px;
   color: #BB272D;
 }
 
 #newWave_color {
   width: 100vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 #newWave_color > div:nth-child(1) {
   width: 45vw;
   height: 108vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 #newWave_color > div:nth-child(1) > div {
   width: 45vw;
   height: 18vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-
 #newWave_color > div:nth-child(1) > div:nth-child(1) {
   background-color: #BB272D;
 }
-
 #newWave_color > div:nth-child(1) > div:nth-child(2) {
   background-color: #E3DDCB;
 }
-
 #newWave_color > div:nth-child(1) > div:nth-child(3) {
   background-color: #3E465B;
 }
-
 #newWave_color > div:nth-child(1) > div:nth-child(4) {
   background-color: #245441;
 }
-
 #newWave_color > div:nth-child(1) > div:nth-child(5) {
   background-color: #6D1B43;
 }
-
 #newWave_color > div:nth-child(1) > div:nth-child(6) {
   background-color: #161616;
 }
-
 #newWave_color #colorImage {
   width: 50vw;
   height: 108vh;
@@ -218,7 +134,6 @@
 #newWave_linearBgc {
   width: 100vw;
   height: 100vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#252525));
   background: linear-gradient(#ffffff, #252525);
 }
 
@@ -226,392 +141,218 @@
   width: 100vw;
   background-color: #252525;
 }
-
 #hanbok_legacy > div:nth-child(1) {
   width: 78vw;
   height: 20vh;
   color: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 #hanbok_legacy > div:nth-child(1) > p {
   width: 70vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: flex-end;
+  align-items: center;
   font-weight: 500;
   font-size: 8rem;
   letter-spacing: 1.5px;
 }
-
 #hanbok_legacy > div:nth-child(2) {
   width: 100vw;
   height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 #hanbok_legacy > div:nth-child(2) > div:nth-child(1) {
   width: 60vw;
   height: 70vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: flex-end;
+  align-items: center;
 }
-
 #hanbok_legacy > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) {
   width: 50vw;
   height: 70vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-around;
+  align-items: center;
 }
-
 #hanbok_legacy > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
   width: 20vw;
   height: 60vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-color: #fff;
   font-weight: 400;
   font-size: 12px;
   border: 1px solid blue;
 }
-
 #hanbok_legacy > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
   width: 20vw;
   height: 60vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-color: #fff;
   font-weight: 400;
   font-size: 12px;
 }
-
 #hanbok_legacy > div:nth-child(2) > div:nth-child(2) {
   width: 30vw;
   height: 70vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-weight: 400;
   color: #fff;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 #hanbok_legacy > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) {
   width: 20vw;
   height: 10vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-size: 16px;
   line-height: 45px;
 }
-
 #hanbok_legacy > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) {
   width: 22vw;
   height: 70vh;
   font-size: 12px;
   line-height: 35px;
   text-align: justify;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 #hanbok_legacy > div:nth-child(2) > div:nth-child(2) #legacyMain_nav {
   width: 22vw;
   height: 10vh;
   font-size: 16px;
   font-weight: 500;
   color: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: flex-start;
+  align-items: center;
 }
-
 #hanbok_legacy > div:nth-child(2) > div:nth-child(2) #legacyMain_nav > div:nth-child(1) {
   width: 10vw;
   height: 10vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
 }
-
 #hanbok_legacy > div:nth-child(2) > div:nth-child(2) #legacyMain_nav > div:nth-child(1) > div:nth-child(1) {
   width: 5vw;
   height: 5vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: flex-start;
+  align-items: center;
 }
-
 #hanbok_legacy > div:nth-child(2) > div:nth-child(2) #legacyMain_nav > div:nth-child(1) > div:nth-child(2) {
   width: 5vw;
   height: 5vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: flex-end;
+  align-items: center;
 }
-
 #hanbok_legacy #hanbok_legacy_slide {
   width: 100vw;
   background-color: #252525;
 }
-
 #hanbok_legacy #hanbok_legacy_slide > div:nth-child(1) {
   width: 100vw;
   height: 60vh;
   background-color: #ccc;
 }
-
 #hanbok_legacy #hanbok_legacy_lastpage {
   width: 100vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-
 #hanbok_legacy #hanbok_legacy_lastpage > div:nth-child(1) {
   width: 80vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 #hanbok_legacy #hanbok_legacy_lastpage > div:nth-child(1) > div:nth-child(1) {
   width: 40vw;
   height: 80vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   color: #fff;
   font-size: 2rem;
   font-weight: 700;
 }
-
 #hanbok_legacy #hanbok_legacy_lastpage > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
   width: 25vw;
   height: 60vh;
   background-color: #ccc;
 }
-
 #hanbok_legacy #hanbok_legacy_lastpage > div:nth-child(1) > div:nth-child(1) > p {
   width: 25vw;
 }
-
 #hanbok_legacy #hanbok_legacy_lastpage > div:nth-child(1) > div:nth-child(2) {
   width: 40vw;
   height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
   color: #fff;
   font-size: 2rem;
   font-weight: 700;
 }
-
 #hanbok_legacy #hanbok_legacy_lastpage > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) {
   width: 25vw;
   height: 60vh;
   background-color: #ccc;
 }
-
 #hanbok_legacy #hanbok_legacy_lastpage > div:nth-child(1) > div:nth-child(2) > p {
   width: 25vw;
 }
-
 #hanbok_legacy #hanbok_legacy_lastpage > div:nth-child(2) {
   width: 100vw;
   height: 70vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: flex-start;
+  align-items: center;
 }
-
 #hanbok_legacy #hanbok_legacy_lastpage > div:nth-child(2) > div:nth-child(1) {
   width: 60vw;
   height: 60vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 #hanbok_legacy #hanbok_legacy_lastpage > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) {
   width: 50vw;
   height: 50vh;
   background-color: black;
 }
-
 #hanbok_legacy #hanbok_legacy_lastpage > div:nth-child(2) > div:nth-child(2) {
   width: 40vw;
   height: 60vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
-
 #hanbok_legacy #hanbok_legacy_lastpage > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) {
   width: 25vw;
   height: 13vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  justify-content: flex-start;
+  align-items: flex-start;
   font-weight: 700;
   color: #fff;
   font-size: 2rem;
-}
-/*# sourceMappingURL=hanbok_newWave.css.map */
+}/*# sourceMappingURL=hanbok_newWave.css.map */
