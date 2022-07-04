@@ -5,7 +5,16 @@
 <style type="text/css">
 	.st0{fill:none;}
 </style>
-<image style="overflow:visible;" width="925" height="1019" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA50AAAP7CAYAAADYgeoNAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA
+<g>
+	<defs>
+		<polygon id="SVGID_1_" points="862,168 462,987 62,168 		"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="clip-path:url(#SVGID_2_);">
+		
+			<image style="overflow:visible;" width="925" height="1019" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA50AAAP7CAYAAADYgeoNAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA
 AXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUABSH1SURBVHgB7P3psi1Jdt8HLo+9zz7TPXfKqbIS
 iazCQIBsGgkWCFDdZm1Mg7rfo/gGeANVPUEDT6DC5x6Itv5ANCFRiS9qmrVMXS2aDCIJCYWhyCpk
 ZeYdzrz3Dpev5UMs93CPiH1uZkJS/X+Z++59Ijx8Ch/W8uUDEQAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -5908,9 +5917,9 @@ fm/OXHttTZUTAIC1CJ0AAKzx/EXab/Ni3ftt8KTKCQDABoROAAA2mNbzU9mrcz6fp0PIGs9erxdk
 um0Z5lQ5AQDYgNAJAMAGUu2MBc2RP58m2vaKi2dNNRQAAKxB6AQA4AYxdJ6mnTqLop1k256fllQ5
 AQC4AaETAIAb/MGLPx/FqDmS5zpEqKqqWOV8fxwAAMBGhE4AAG6hSNXOBSbWAgBwO4ROAABu4Vlb
 7ZShQtV8/nPWcgIAcDuETgAAbqutdpZFeRYAAAAAAPj/9td/ef7TAAAAbu1/AaxvlJhjIDCYAAAA
-AElFTkSuQmCC" transform="matrix(1 0 0 1 47 0)">
-</image>
-<line class="st0" x1="862" y1="196" x2="462" y2="1019"/>
-<polyline class="st0" points="490.01,942.96 90.01,119.96 890.01,119.96 "/>
-<polygon class="st0" points="62.5,196.5 862.5,196.5 462.5,1019.5 "/>
+AElFTkSuQmCC" transform="matrix(1 0 0 1 0 -32)">
+		</image>
+	</g>
+</g>
+<polygon class="st0" points="62,197 862,197 462,1019 "/>
 </svg>

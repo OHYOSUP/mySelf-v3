@@ -14,7 +14,6 @@ const imageDescription = document.getElementById('imageDescription');
 
 
 
-
 nextPage(main, 'wheel', pilgrimage_main)
 
 scrollArrElemFadein(background,"",8);
@@ -25,6 +24,8 @@ fade();
 titleTextStyle('15rem', 1000, 'relative', 10, 0, '2vh');
 
 scrollFunctionFadein(background,30);
+
+
 
 
 // indiTextStyle(0, 700, 'relative', 10, 0, '5vh');
